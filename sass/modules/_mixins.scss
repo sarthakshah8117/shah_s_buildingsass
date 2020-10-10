@@ -1,0 +1,6 @@
+
+@mixin positionColor($bg-color) {
+    position:relative;
+    background-color: $bg-color;
+    
+}
