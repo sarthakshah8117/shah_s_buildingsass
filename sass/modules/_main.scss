@@ -1,0 +1,59 @@
+.bodyC {
+    position:relative;
+    padding:0;
+    background-color: $white-bg-color;
+    margin-right:-15px;
+}
+
+body { font-family: $fonts;
+     font-size:16px; 
+     background-color: $body-bg-color; }
+
+#mainImg { width: 100%; }
+
+#topPanel { margin:0; position:relative; }
+
+.bannerContainer { padding:0; }
+
+
+
+#mBubble { 
+  position:absolute; 
+  background-color:#853c37; 
+  width:15px; height:15px; 
+  font-size:1rem; 
+  left:25px; 
+  top:-3px; 
+}
+
+
+// school logo
+.clLogo { 
+  position:relative;
+  top: 50%;
+  transform: translateY(-50%);
+  left:40px;
+
+}
+
+.mainHead {
+  height:110px;
+  background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
