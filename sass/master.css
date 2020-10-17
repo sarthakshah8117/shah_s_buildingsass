@@ -3,6 +3,7 @@
     background-color: #be646c;
   }
 }
+
 .sidebarC {
   color: white;
   position: relative;
@@ -33,7 +34,7 @@
   background-color: #f3d83f;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   width: 55px;
   height: 45px;
   color: white;
@@ -109,7 +110,7 @@
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   left: 12%;
 }
 
@@ -153,7 +154,7 @@ body {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   left: 40px;
 }
 
@@ -211,7 +212,4 @@ body {
 .profPanel span {
   margin-right: 8px;
 }
-
-/*# sourceMappingURL=master.css.map */
-
 /*# sourceMappingURL=master.css.map */
