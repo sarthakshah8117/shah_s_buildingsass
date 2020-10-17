@@ -85,9 +85,19 @@
 
               <p class="text-muted"><span class="text-primary"></span></p>
               <p></p>
+              <section class="user-section">
+                <!-- user-template copies get rendered here -->
+              </section>
               <!-- class times go here -->
               <ul class="list-inline"></ul>
-
+              <template id="user-template">
+                <div class="user">
+                    <h1 class="hidden"></h1>
+                    <h2 class="user-name"></h2>
+                    <p class="user-nickname"></p>
+                    <p class="user-role"></p>
+                </div>
+            </template>
               <!-- END DYNAMIC DATA -->
             </div>
 
@@ -97,12 +107,11 @@
 
         <!-- STOP HERE - YOUR SASS REBUILD IS DONE -->
 
-        <!-- Bottom Panel -->
-        <section id="bottomPanel" class="row">
-          <h2 class="hidden">Bottom Content</h2>
+        
+          <!-- <h2 class="hidden">Bottom Content</h2> -->
 
           <!-- course nav -->
-          <ul class="list-unstyled list-inline mainC_nav text-muted">
+          <!-- <ul class="list-unstyled list-inline mainC_nav text-muted">
             <li><span class="glyphicon glyphicon-volume-up"></span></li>
             <li>
               <div class="dropdown">
@@ -126,14 +135,17 @@
               </div>
             </li>
             <li><span class="glyphicon glyphicon-search"></span></li>
-          </ul>
+          </ul> -->
+
+          <!-- Bottom Panel -->
+        <section id="bottomPanel" class="row">
           <!-- course info -->
           <div class="row courseStuff">
             <div class="col-sm-11">
               <article class="courseInfo">
 
                 <!-- REPLACE ALL OF THIS CONTENT WITH DATA FROM classData.js -->
-                <h2></h2>
+                <h2> Oil & Gas - BCU-1001</h2>
                 <hr>
                 <h3>Course Description:</h3>
                 <p></p>
@@ -141,7 +153,43 @@
               </article>
             </div>
           </div>
+        </section>
 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
           <!-- week by week -->
           <div class="row lowerPanelNav">
             <section class="col-sm-11 weeklySched ">
@@ -273,9 +321,7 @@
   </div> <!-- end wrapper container -->
 
   <!-- javascript includes -->
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="data/classData.js"></script>
+
   <script src="js/main.js"></script>
 </body>
 
