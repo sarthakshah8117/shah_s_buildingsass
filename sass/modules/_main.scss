@@ -58,7 +58,12 @@ body { font-family: $fonts;
 
 .courseInfo h3 { font-weight:300; margin-bottom:15px; }
 
-
+.profName {
+  p {
+    margin: 0 0 10px;
+    color: maroon;
+}
+}
 
 
 

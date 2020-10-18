@@ -171,6 +171,11 @@ body {
   margin-bottom: 15px;
 }
 
+.profName p {
+  margin: 0 0 10px;
+  color: maroon;
+}
+
 .profPanel {
   width: 445px;
   height: 150px;
