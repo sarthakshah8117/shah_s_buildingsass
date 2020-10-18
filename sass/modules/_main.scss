@@ -42,9 +42,28 @@ body { font-family: $fonts;
 }
 
 
+.courseStuff, .calendarStuff, .lowerPanelNav, .footerStuff { margin:0; }
+.courseInfo { 
+    position:relative;
+    left:40px;
+    font-weight:300;
+    color:#969595;
+}
 
+.courseInfo h2 { 
+    font-weight:300; 
+    font-size:4.2rem;
+    padding-top:10px;
+}
 
+.courseInfo h3 { font-weight:300; margin-bottom:15px; }
 
+.profName {
+  p {
+    margin: 0 0 10px;
+    color: maroon;
+}
+}
 
 
 
